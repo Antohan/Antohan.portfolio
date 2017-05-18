@@ -1,0 +1,358 @@
+@font-face {
+  font-family: OratorStd;
+  src: url(../fonts/OratorStd.otf);
+}
+body {
+	background-image: url(../images/fon.png);
+	/* padding: 0; */
+}
+
+.container {
+	width: 968px;
+	margin: 0 auto;
+	background-color: #fff;
+	/* padding: 0 */;
+}
+
+	.hat {
+		background-color: #282828;
+		/* width: 100%; */
+	}
+	header .twit .icon {
+		width: 40px;
+		height: 40px;
+		background-image: url(../images/twitter.png);
+		margin: 15px;
+		float: left;
+	}
+	header .twit .about {
+		color: #fff;
+		font-size: 0.75em;
+		font-family: "Arial";
+		vertical-align: middle;
+		padding-top: 30px;	
+	}
+	header .twit .about span {
+		font-style: italic;
+		color: #c5c5c5;
+	}
+
+	header .nav .logo{
+		background-color: #fff;
+		height: 145px;
+		width: 100%;
+		margin-top: 25px;
+		font-family: 'Agency FB', arial;
+	}
+	header .nav .logo .clix {
+		font-size: 4.1em;
+		padding-left: 18px;
+		padding-top: 25px;
+		margin-bottom: -10px;
+		width: 80px;
+		cursor: pointer;
+	}
+	header .nav .logo .clix-txt {
+		background-color: #282828;
+		color: #fff;
+		font-family: "Arial";
+		font-size: 0.7em;
+		display: inline-block;
+		padding: 2px 1px 2px 1px;
+		float: left;
+		margin-left: 22px; 
+	}
+	header .nav .logo .menu a {
+		display: inline-block;
+		float: right;
+		font-size: 1.125em;
+		width: 80px;
+		text-align: center;
+		margin-top: 70px;
+		cursor: pointer;
+	}
+
+	header .slider {
+		height: 436px;
+		position: relative;
+	}
+
+	.slider .next, .slider .prev {
+		position: absolute;
+		font-family: 'OratorStd';
+		cursor: pointer;
+		font-size: 28px;
+		top: 50%;
+		margin-left: 54px;
+		margin-top: -15px;
+		color: #989898;
+		background-color: #3e3e3e;
+		padding: 20px 24px 10px 24px;
+		border-radius: 50%;
+	}
+	.slider .next {
+		right: 54px;
+	}
+	.slider .next:hover, .slider .prev:hover {
+		background-color: #151515;
+	}
+
+
+	header .slid-discr {
+		background-color: #151515;
+		border-radius: 8px;
+		width: 388px;
+		padding: 10px;
+		position: absolute;
+		bottom: 20px;
+		left: 290px;
+	}
+	header .slid-discr h2 {
+		color: #fff;
+		font-size: 1em;
+		line-height: 0;
+	}
+	header .slid-discr p {
+		color: #989898;
+		font-size: 0.725em;
+	}
+
+	.big-title {
+		color: #282828;
+		text-align: center;
+		font-family: 'CODE Light', arial;
+		letter-spacing: -3px;
+		font-size: 1.25em;
+		line-height: 25px;
+		text-transform: uppercase;
+		padding-top: 30px;
+	}
+	.big-title span {
+		color: #fff;
+		background-color: #282828;
+		padding: 0 5px 0 1px;
+	}
+
+.line {
+	width: 945px;
+	margin: auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+.line hr {
+	border: none;
+	height: 1px;
+	background-color: #e7e7e7;;
+}
+
+/* content */	
+
+.content .service {
+	width: 800;
+}
+	
+	.content .service .block {
+		width: 210px;
+		vertical-align: top;
+		padding-left: 25px;
+	}
+	.content .service>div {
+		display: inline-block;
+	}
+
+	.content .service .block .icon {
+		width: 60px;
+		height: 60px;
+		background-image: url(../images/icons.png);
+		float: left;
+	}
+	.content .service .quality .icon {
+		background-position: -5px 0;
+	}
+	.content .service .love .icon {
+		background-position: -95px 0;
+	}
+	.content .service .driving .icon {
+		background-position: -195px 0;
+	}
+	.content .service .work .icon {
+		background-position: -290px 0;
+	}
+	.content .service .block .title {
+		font-size: 1em;
+		font-weight: bold;
+		font-family: 'Arial';
+		color: #282828;
+		height: 1px;
+		width: 100px;
+		float: left;
+		text-align: center;
+		box-sizing: border-box;
+		padding-top: 15px;
+	}
+	.content .service .block .txt {
+		font-family: 'Verdana', Arial;
+		font-size: 0.75em;
+		color: #989898;
+		clear: both;
+		line-height: 20px;
+	}
+	
+
+/* works */
+
+.content .works .title {
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Arial';
+	background-color: #282828;
+	color: #fff;
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	padding: 0 2px;
+}
+	.content .works .inner-block {
+		width: 220px;
+		display: inline-block;
+		padding-left: 15px;
+		margin-top: 5px;
+	}
+	.content .works .inner-block:nth-child(-n+4){
+		margin-bottom: 50px;
+	}
+
+	.content .works .foto {
+		width: 220px;
+		height: 127px;
+		background-color: #282828;
+		cursor: pointer;
+	}
+	.content .works .text {
+		width: 220px;
+		font-family: 'Verdana', Arial;
+		font-size: 0.75em;
+		color: #989898;
+		margin-top: 10px;
+		line-height: 20px;
+	}
+
+footer {
+	letter-spacing: -.36em;
+}
+
+footer .inner-block {
+	width: 220px;
+	height: 250px;
+	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+	footer div:last-child {
+		width: 226px;
+	}
+
+	footer .inner-block h2 {
+		font-size: 1em;
+		font-weight: bold;
+		font-family: 'Arial';
+		color: #282828;
+		margin-top: 0;
+	}
+	footer .inner-block p {
+		font-family: 'Verdana', Arial;
+		font-size: 0.70em;
+		color: #989898;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		line-height: 20px;
+	}
+	footer .inner-block .wrap-foto {
+		font-size: 0;
+	}
+	footer .inner-block .foto {
+		width: 42px;
+		height: 38px;
+		background-color: #282828;
+		display: inline-block;
+		margin-right: 11px;
+		margin-bottom: 14px;
+		cursor: pointer;
+	}
+
+
+.basement {
+	width: 100%;
+	height: 36px;
+	overflow: hidden;
+	position: relative;
+
+}
+	.basement p {
+		font-family: 'Verdana', Arial;
+		font-size: 0.70em;
+		color: #989898;
+		margin-left: 14px;
+		vertical-align: center;
+		float: left;
+	}
+	.basement .go-top {
+		margin: 0 auto;
+		width: 64px;
+	}
+	.basement .go-top a {
+		position: absolute; 
+		top: 1px;
+		background-color: #282828;
+		color: #989898;
+		font-family: 'OratorStd';
+		color: #989898;
+		border-radius: 50%;
+		text-decoration: none;
+		font-size: 38px;
+ 		padding: 20px 18px 6px 8px;
+  		-webkit-transform: rotate(90deg);
+  		-moz-transform: rotate(90deg);
+  		transform: rotate(90deg);
+	}
+
+	.basement .social-wrap {
+		position: absolute;
+		right: 14px;
+		top: 0;
+		width: 186px;
+		height: 26px;
+		font-size: 0;
+	}
+	.basement .social-wrap .social {
+		display: inline-block;
+		margin-right: 6px;
+		box-sizing: border-box;
+		width: 26px;
+		height: 26px;
+		cursor: pointer;
+		background-image: url(../images/social.png);
+	}
+	.basement .social-wrap .social:last-child {
+		margin-right: 0;
+	}
+
+	.basement .social-wrap .fb {
+		background-position: -4px -4px;
+	}
+	.basement .social-wrap .drib {
+		background-position: -32px -4px;
+	}
+	.basement .social-wrap .devart {
+		background-position: -62px -4px;
+	}
+	.basement .social-wrap .flick {
+		background-position: -92px -4px;
+	}
+	.basement .social-wrap .tumb {
+		background-position: -122px -4px;
+	}
+	.basement .social-wrap .twit {
+		background-position: -152px -4px;
+	}
