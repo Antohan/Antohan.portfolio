@@ -1,0 +1,351 @@
+@import url(fonts.css);
+@import url(font-awesome.min.css);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'HelveticaNeueBold';
+	font-size: 48px;
+}
+h3 {
+	font-family: 'HelveticaNeueLight';
+	font-size: 30px;
+	font-weight: 100;
+}
+
+header {
+	width: 100%;
+	height: 777px;
+}
+
+	header .contacts {
+		height: 42px;
+		background-color: #f0f2f4;
+		border-bottom: 1px solid #e2e2e2;
+		padding-left: 870px;
+		font-family: 'Helvetica';
+		color: #424242;
+		font-size: 15px;
+	}
+
+		header .phoneNumber {
+			float: left;
+			height: 42px;
+			display: block;
+			padding-right: 20px;
+			border-right: 1px solid #e2e2e2;
+		}
+
+		header .email{
+			float: left;
+			height: 42px;
+			width: 147px;
+			padding-left: 20px;
+		}
+
+		header span {
+			float: left;
+			line-height: 45px;
+		}
+		
+		header .fb {
+			float: left;
+			height: 21px;
+			width: 26px;
+			border-radius: 3px;
+			background-color: #1287bf;
+			color: #fff;
+			font-size: 16px;
+			text-align: center;
+			margin-top: 7px;
+			padding-top: 5px;
+		}
+
+
+	header nav {
+		background-color: #fff;
+		height: 130px;		
+	}
+
+	header nav .logo {
+		float: left;
+		margin-top: 38px;
+		padding-left: 165px;
+	}
+		header nav i {
+			float: left;
+		}
+		header nav hgroup {
+			float: left;
+			color: #424242;
+		}
+		header nav hgroup h1 {
+			font-family: 'HelveticaNeueBold';
+			font-size: 37px;
+		}
+		header nav hgroup p {
+			font-family: 'HelveticaNeue';
+			font-size: 15px;
+		}
+
+	header nav ul {
+		float: left;
+		padding: 48px 0 0 180px;
+		font-size: 0;
+	}
+	header nav li {
+		padding: 0 15px 0 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	header nav li:nth-child(2n) {
+		padding: 0;
+		color: #424242;
+		font-size: 15px;
+		font-family: 'HelveticaNeueBold';
+	}
+	header nav li>a{
+		text-decoration: none;
+		color: #424242;
+		font-size: 15px;
+		font-family: 'HelveticaNeueBold';
+	}
+	header nav li>a:hover{
+		color: #de2b24;
+	}
+	header nav button {
+		font-family: 'HelveticaNeueBold';
+		font-size: 15px;
+		background-color: #de2b24;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		padding: 9px 22px;
+		margin-left: 15px;
+	}
+	header nav button:hover {
+		background-color: #f8cd53;
+	}
+
+	header .banner {
+		text-align: center;
+		color: #fff;
+		height: 100%;
+		vertical-align: middle;
+		margin-top: 175px;
+	}
+		
+		header .banner button {
+			cursor: pointer;
+			background-color: #f8cd53;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			font-family: 'HelveticaNeueBold';
+			font-size: 1.46em;
+			padding: 20px 40px;
+			margin-top: 25px;
+		}
+		header .banner button:hover {
+			background-color: #de2b24;
+		}
+
+main h1 {
+	font-size: 36px;
+}
+main h3 {
+	font-size: 20px;
+}
+
+main .about {
+		height: 540px;
+	}
+
+	main hgroup {
+		text-align: center;
+		color: #424242;
+		padding-top: 95px;
+	}
+	
+	main .about .wrap {
+		width: 1060px;
+		margin: auto;
+	}
+
+	main .about .services {
+		display: inline-block;
+		width: 250px;
+		text-align: center;
+		margin: 46px 50px;
+	}
+	
+	main .services h2 {
+		color: #424242;
+		font-family: 'HelveticaNeueBold';
+		font-size: 22px;
+	}
+	main p {
+		font-family: 'OpenSans';
+		font-size: 13px;
+		color: #5c5c5c;
+	}
+
+main .approch {
+	height: 1405px;
+	background-color: #f3f3f3;
+	
+}
+	.approch .wrap {
+		margin-top: 44px;
+	}
+	.approch .steps {
+		width: 1020px;
+		background-color: #fff;
+		margin: 0 auto 40px auto;
+		border-radius: 5px;
+		height: 236px;
+		box-shadow: 0 0 3px 1px rgba(0,0,0, 0.1);
+		position: relative;
+	}
+	
+	.approch .step1 {
+		background: #fff url(../img/camera.png) -49px -15px no-repeat;
+	}
+	.approch .step2 {
+		background: #fff url(../img/road.png) 682px 0 no-repeat;
+	}
+	.approch .step3 {
+		background: #fff url(../img/tabel.png) -39px -16px no-repeat;
+	}
+	.approch .step4 {
+		background: #fff url(../img/worktabel.png) 682px 0 no-repeat;
+	}
+
+	.approch .steps h2 {
+		font-family: 'HelveticaNeueBold';
+		font-size: 18px;
+	}
+	
+	.approch .steps hgroup {
+		width: 521px;
+		padding-top: 70px;
+	}
+	.approch .step1 hgroup, .approch .step3 hgroup {
+		text-align: left;
+		margin-left: 428px;
+	}
+	.approch .step2 hgroup, .approch .step4 hgroup {
+		text-align: right;
+		margin-left: 70px
+	}
+
+	.approch .steps .plate{
+		position: absolute;
+		top: 62px;
+		width: 101px;
+		height: 101px;
+		text-align: center;
+		background-color: #de2b24;
+		font-family: 'Helvetica';
+		border: 2px solid #fff;
+		border-radius: 5px;
+	}
+	.approch .steps .p1, .approch .steps .p3 {
+		left: 286px;
+	} 
+	.approch .steps .p2, .approch .steps .p4 {
+		right: 286px;
+	}
+
+	.approch .steps .plate h2 {
+		color: #fff;
+		font-size: 60px;
+	}
+	.approch .steps .plate span {
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.work {
+		background-color: #de2b24;
+		height: 866px;
+	}
+	.work hgroup {
+		color: #fff;
+	}
+	.work .wrap {
+		font-size: 0;
+  		width: 1020px;
+  		margin: 44px auto;
+	}
+	.work .wrap>div {
+		width: 255px;
+		height: 253px;
+		background-color: #424242;
+		display: inline-block;
+	}
+	.work .wrap .plane {
+  		background-color: #f35e59;
+  		position: relative;
+	}
+	.work .wrap i {
+		position: absolute;
+		left: 109px;
+		top: 75px;
+		font-size: 36px;
+		color: #f9bab8;
+	}
+	.work .plane hgroup {
+		position: absolute;
+		color: #fff;
+		font-family: 'HelveticaNeueBold';
+		left: 43px;
+		bottom: 77px;
+	}
+	.work .plane hgroup h2 {
+		font-size: 26px;
+		
+	}
+	.work .plane hgroup p {
+		font-family: 'HelveticaNeueBold';
+		color: #fff;
+		font-size: 16px;
+	}
+
+	.work .b2 {
+		background: url(../img/camera.png) -130px -7px no-repeat;
+	}
+	.work .b4 {
+		background: url(../img/tree.png) -71px -7px no-repeat;
+	}
+	.work .b5 {
+		background: url(../img/bridg.png) -74px -3px no-repeat;
+	}
+	.work .b7 {
+		background: url(../img/track.png) -72px -7px no-repeat;
+	}
+
+main .analisys {
+	height: 847px;
+	background-color: #1287bf;
+}
+
+main footer {
+	height: 484px;
+	background-color: #2a2a2a;
+}
+
+footer {
+	height: 67px;
+	background-color: #515151;
+	color: #a3a3a3;
+	font-family: 'OpenSans';
+	font-size: 14px;
+	text-align: center;
+	padding-top: 27px;
+	box-sizing: border-box;
+}

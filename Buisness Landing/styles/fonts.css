@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url(../fonts/HelveticaRegular.ttf);
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url(../fonts/HelveticaNeue.ttf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueBold";
+	src: url(../fonts/HelveticaNeueBold.ttf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueLight";
+	src: url(../fonts/HelveticaNeueLight.ttf);
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url(../fonts/OpenSans.ttf);
+}
