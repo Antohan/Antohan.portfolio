@@ -22,3 +22,9 @@
 	font-family: "OpenSans";
 	src: url(../fonts/OpenSans.ttf);
 }
+
+
+@font-face {
+	font-family: "OratorStd";
+	src: url(../fonts/OratorStd.otf);
+}

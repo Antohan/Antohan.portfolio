@@ -55,13 +55,16 @@ header {
 			float: left;
 			height: 21px;
 			width: 26px;
-			border-radius: 3px;
 			background-color: #1287bf;
 			color: #fff;
 			font-size: 16px;
 			text-align: center;
 			margin-top: 7px;
 			padding-top: 5px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			-o-border-radius: 3px;
+			border-radius: 3px;
 		}
 
 
@@ -122,10 +125,13 @@ header {
 		background-color: #de2b24;
 		color: #fff;
 		border: none;
-		border-radius: 5px;
 		cursor: pointer;
 		padding: 9px 22px;
 		margin-left: 15px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
 	}
 	header nav button:hover {
 		background-color: #f8cd53;
@@ -143,12 +149,15 @@ header {
 			cursor: pointer;
 			background-color: #f8cd53;
 			border: none;
-			border-radius: 5px;
 			color: #fff;
 			font-family: 'HelveticaNeueBold';
 			font-size: 1.46em;
 			padding: 20px 40px;
 			margin-top: 25px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
 		}
 		header .banner button:hover {
 			background-color: #de2b24;
@@ -206,10 +215,13 @@ main .approch {
 		width: 1020px;
 		background-color: #fff;
 		margin: 0 auto 40px auto;
-		border-radius: 5px;
 		height: 236px;
 		box-shadow: 0 0 3px 1px rgba(0,0,0, 0.1);
 		position: relative;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
 	}
 	
 	.approch .step1 {
@@ -252,6 +264,9 @@ main .approch {
 		background-color: #de2b24;
 		font-family: 'Helvetica';
 		border: 2px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
 		border-radius: 5px;
 	}
 	.approch .steps .p1, .approch .steps .p3 {
@@ -330,14 +345,215 @@ main .approch {
 	}
 
 main .analisys {
-	height: 847px;
+	min-height: 300px;
 	background-color: #1287bf;
 }
+
+	.analisys hgroup {
+		color: #fff;
+		padding-bottom: 55px; 
+	}
+
+	 .analisys hgroup .show-submit {
+		width: 57px;
+	  	height: 57px;
+	  	padding: 10px 5px 0 0;
+	  	background-color: rgba(0,0,0,0);
+	  	border: 3px solid #fff;
+	  	-webkit-border-radius: 50%;
+	  	-moz-border-radius: 50%;
+	  	-o-border-radius: 50%;
+	  	border-radius: 50%;
+	  	cursor: pointer;
+	  	color: #fff;
+	 	font-size: 30px;
+	 	font-family: 'OratorStd';
+	 	font-weight: 700;
+	  	-webkit-transform: rotate(-90deg);
+	  	-moz-transform: rotate(-90deg); 
+	  	-o-transform: rotate(-90deg); 
+	  	transform: rotate(-90deg); 
+	}
+	.analisys hgroup .show-submit:hover {
+		border-color: #DE2B24;
+		color: #DE2B24;
+	}
+
+	.analisys .form-wrap {
+		display: none;
+		height: 560px;
+	}
+
+	.analisys .submit-form {
+		/* display: none; */
+		position: relative; 
+		background-color: #fff;
+		width: 683px;
+		height: 448px;
+		margin: 0 auto 0 auto;
+		padding-top: 50px;
+		border-radius: 3px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	 .analisys .submit-form .angle {
+		position: absolute;
+		background-color: #fff;
+		width: 50px;
+		height: 50px;
+		left: 317px; top: -25px;
+		-webkit-transform: rotate(45deg);
+	  	-moz-transform: rotate(45deg); 
+	  	-o-transform: rotate(45deg); 
+	  	transform: rotate(45deg); 
+	} 
+	.analisys li {
+		list-style: none;
+	}
+	.analisys .notification {
+		color: #828282;
+		font-size: 15px;
+		font-family: 'Helvetica';
+		text-align: center;
+		width: 570px;
+		margin: 0 auto 40px auto;
+	}
+
+	.analisys .submit-form .input-wrap {
+		width: 443px;
+		margin: auto;
+		text-align: center;
+	}
+	.analisys .submit-form input {
+		color: #424242;
+		width: 403px;
+		height: 50px;
+		font-size: 15px;
+		line-height: normal;
+		font-family: 'Helvetica';
+		padding: 0 20px;
+		border: 1px solid #d8d8d8;
+		margin-bottom: 8px;
+		background-color: #fff;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.analisys .submit-form input:focus {
+		border: 1px solid #1287bf;
+		-webkit-box-shadow: 0 0 3px 1px rgba(18,135,191, 0.2);
+		-moz-box-shadow: 0 0 3px 1px rgba(18,135,191, 0.2);
+		-o-box-shadow: 0 0 3px 1px rgba(18,135,191, 0.2);
+		box-shadow: 0 0 3px 1px rgba(18,135,191, 0.2);
+	}
+	.analisys .submit-form input::-webkit-input-placeholder,
+	.analisys .submit-form input::-moz-placeholder {
+		color: #b0b0b0;
+	}
+	
+	.analisys .submit-form button {
+		font-family: 'HelveticaNeueBold';
+		font-size: 15px;
+		color: #fff;
+		background-color: #DE2B24;
+		width: 161px;
+		padding: 14px 0;
+		margin-top: 36px;
+		border: none;
+		cursor: pointer;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.analisys .submit-form button:hover {
+		background-color: #f8cd53;
+	}
 
 main footer {
 	height: 484px;
 	background-color: #2a2a2a;
+	font-size: 0;
 }
+	main footer h1 {
+		color: #fff;
+		font-size: 29px;
+		margin-bottom: 28px;
+		margin-top: 55px;
+	}
+	main footer p {
+		font-family: 'OpenSans';
+		font-size: 14px;
+		margin: 35px auto;
+	}
+	main footer .social-link {
+		cursor: pointer;
+		display: table-cell;
+		vertical-align: middle;
+		width: 45px;
+		height: 45px;
+		color: #fff;
+		font-size: 23px;
+		border: 2px solid #515151;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		
+	}
+	main footer .social-link:hover {
+		border-color: #DE2B24;
+	}
+	main footer a  {
+		display: inline-block;
+		margin-left: 20px;
+	} 
+	
+	main footer form {
+		width: 683px;
+		margin: auto;
+	}
+	main footer form input[type="email"] {
+		width: 683px;
+		height: 54px;
+		background-color: #515151;
+		color: #fff;
+		font-size: 14px;
+		border: none;
+		padding-left: 22px;
+		margin-bottom: 27px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	main footer form input[type="email"]::-webkit-input-placeholder,
+	main footer form input[type="email"]::-moz-placeholder {
+		color: #cecece;
+	}
+
+	main footer form input[type="button"] {
+		background-color: rgba(0,0,0,0);
+		color: #fff;
+		font-family: 'Helvetica';
+		font-size: 17px;
+		font-weight: bold;
+		padding-top: 5px;
+		width: 149px;
+		height: 49px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		border: 2px solid #515151;
+		cursor: pointer;
+	}
+	main footer form input[type="button"]:hover {
+		border-color: #DE2B24;
+	}
 
 footer {
 	height: 67px;

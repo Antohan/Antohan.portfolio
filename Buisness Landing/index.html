@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="css/main.css">
+	
 </head>
 <body>
 
@@ -33,14 +34,14 @@
 					<p>Tagline goes here</p>
 				</hgroup>	
 			</div>
-			<ul>
+			<ul id="menu">
 				<li><a href="">Home </a></li>
 				<li>&#8226;</li>
-				<li><a href=""> About Us</a></li>
+				<li><a href=".about"> About Us</a></li>
 				<li>&#8226;</li>
-				<li><a href="">Our Approch</a></li>
+				<li><a href=".approch">Our Approch</a></li>
 				<li>&#8226;</li>
-				<li><a href="">Our Work</a></li>
+				<li><a href=".work">Our Work</a></li>
 				<li><button>Free Consultation</button></li>
 			</ul>
 		</nav>
@@ -182,16 +183,83 @@
 
 		<!-- Analisys -->
 		<section class="analisys">
+			<hgroup>
+				<h1>Get Your Free Facebook Analysis Now</h1>
+				<h3 style="margin-bottom: 15px;">Enter your details below</h3>
+				<button class="show-submit">&lt;</button>
+			</hgroup>
+			<div class="form-wrap">
+			<form class="submit-form" method="post" name="submit-form">
 			
+			<div class="angle"></div>
+				<ul>
+					<li class="notification">
+						Sit down with our experts to receive a free customized marketing plan for your busi&shy;ness + Learn How To Use Google and Facebook to get 5000% ROI or more
+					</li>
+					<div class="input-wrap">
+						<li>
+							<input type="text" name="YourName" placeholder="Your Name" class="input">
+						</li>
+						<li >
+							<input type="text" name="ContactNumber" placeholder="Contact Number" class="input">
+						</li>
+						<li>
+							<input type="text" name="CompanyName" placeholder="Company Name" class="input">
+						</li>
+						<li>
+							<button class="submit" type="submit">SUBMIT NOW</button>
+						</li>
+					</div>
+				</ul>
+			</form>
+			</div>
 		</section>
 
 		<!-- Get in touch -->
-		<footer></footer>
+		<footer>
+			<h1>Get in touch</h1>
+			<div class="social">
+				<a><div class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+				<a><div class="social-link"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+				<a><div class="social-link"><i class="fa fa-google-plus" aria-hidden="true"></i></div></a>
+				<a><div class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+			</div>
+			<p>Subscribe to our newsletter to stay update with what is new</p>
+			<form action="" method="post">
+				<input type="email" placeholder="Email Address">
+				<input type="button" value="Subscribe">
+			</form>
+		</footer>
 	</main>
 
 	<!-- копирайт -->
 	<footer>
 		Cssauthor.com © 2014 All Rights Reserved
 	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+  			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  			crossorigin="anonymous">
+  	</script>
+	<script>
+		/* Скрываем/паказываем форму для Free Facebook Analysis */
+		$(".show-submit").click(function () {
+    		$("hgroup").siblings(".form-wrap").slideToggle("slow");
+    	});
+
+		/* Анимация перехода по якорным ссылкам */
+		$("#menu").on("click","a", function (event) {
+        	//отменяем стандартную обработку нажатия по ссылке
+        	event.preventDefault();
+        	//забираем идентификатор бока с атрибута href
+        	var id  = $(this).attr('href'),
+        	//узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+        	//анимируем переход на расстояние - top за 1000 мс
+        	$('body,html').animate({scrollTop: top}, 1000);
+		});
+	</script>
 </body>
 </html>
