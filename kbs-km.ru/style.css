@@ -26,23 +26,29 @@ body {
 img {
     max-width: 100%;
 }
-.select__build, .select__floor {
+.select__build,
+.select__floor,
+.select__apartament {
     position: absolute;
 }
-.select__build path, .select__floor path {
+.select__build path,
+.select__floor path,
+.select__apartament path {
     cursor: pointer;
-    opacity: 0;
+    opacity: 0.8;
     fill: #496c0a;
     stroke: #44fab3;
 }
-.select__floor path {
+.select__floor path,
+.select__apartament path {
     opacity: 0.3;
     fill: #496c0a;
 }
 .select__build path:hover {
     opacity: .4;
 }
-.select__floor path:hover {
+.select__floor path:hover,
+.select__apartament path:hover {
     opacity: .8
 }
 .piking h3 {
@@ -116,6 +122,15 @@ img {
 .piking button:hover {
     box-shadow: 0 3px 4px rgba(0,0,0,.3) inset;
 }
+
+.floor__figure {
+    display: block;
+    width: 45vw;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
 
 @media screen and (max-width: 1000px) {
     .logo{
