@@ -35,7 +35,7 @@ img {
 .select__floor path,
 .select__apartament path {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0;
     fill: #496c0a;
     stroke: #44fab3;
 }
