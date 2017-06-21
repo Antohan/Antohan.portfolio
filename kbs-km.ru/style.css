@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html,
 body {
@@ -130,7 +130,79 @@ img {
     margin: auto;
     position: relative;
 }
-
+/*Описание микрорайона*/
+.discription__wrapper {
+    padding: 50px 60px 20px;
+}
+.discription__wrapper h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+}
+.information {
+    max-width: 800px;
+    float: left;
+    text-transform: uppercase;
+}
+.information h2 {
+    font-size: 28px;
+    color: #88c369;
+    font-weight: bold;
+    margin: 26px 0 18px;
+}
+.information p {
+    font-size: 14px;
+    margin: 0;
+}
+aside {
+    max-width: 330px;
+    float: left;
+    padding: 0 0 50px 80px;
+    color: #41443b;
+}
+aside h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 24px 0 0;
+}
+aside p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+aside b, aside span {
+    color: #7dc600;
+}
+aside b {
+    font-size: 32px;
+    font-weight: 700; 
+}
+aside h3 {
+    font-size: 18px;
+    margin: 35px 0 0;
+    line-height: 26px;
+}
+footer {
+    clear:both;
+    text-align: center;
+}
+footer img {
+    text-align: center;
+}
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+footer .percent {
+    width: 1070px;
+    margin: auto;
+}
+footer span {
+    font-size: 30px;
+    color: #88c369;
+}
 
 @media screen and (max-width: 1000px) {
     .logo{
