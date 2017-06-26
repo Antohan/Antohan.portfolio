@@ -37,7 +37,7 @@ img {
     cursor: pointer;
     opacity: 0;
     fill: #496c0a;
-    stroke: #44fab3;
+    stroke: #88c369;
 }
 .select__floor path,
 .select__apartament path {
@@ -203,6 +203,73 @@ footer span {
     font-size: 30px;
     color: #88c369;
 }
+
+/*подписи к домам*/
+.sign .two-two {
+    position: absolute;
+    top: 13%;
+    left: 52.7%;
+    border: 1px solid #88c369;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    font-size: 1.2vw;
+    background: #88c369;
+    color: #fff;
+    display: none;
+}
+.two-two::after, .two-two::before {
+    content: '';
+    position: absolute;
+    background: #88c369;
+    left: 20px; bottom: -11px;
+    width: 20px; height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.sign .two-two,
+.sign .two-one,
+.sign .three-two,
+.sign .three-one {
+    position: absolute;
+    border: 1px solid #88c369;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    font-size: 1.2vw;
+    background: #88c369;
+    color: #fff;
+    display: none;
+}
+.two-two::after, .two-two::before,
+.two-one::after, .two-one::before,
+.three-two::after, .three-two::before,
+.three-one::after, .three-one::before {
+    content: '';
+    position: absolute;
+    background: #88c369;
+    left: 20px; bottom: -11px;
+    width: 20px; height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.sign .two-two {
+    top: 13%;
+    left: 53%;
+}
+.sign .two-one {
+    top: 5%;
+    left: 41%;
+}
+.sign .three-two {
+    top: 28%;
+    left: 28%;
+}
+.sign .three-one {
+    top: 14%;
+    left: 22%;
+}
+
 
 @media screen and (max-width: 1000px) {
     .logo{
