@@ -6,7 +6,8 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-#wrapper {
+#wrapper__dist,
+#wrapper__build {
     position: relative;
 }
 .logo {
@@ -55,15 +56,17 @@ img {
     color: #496c0a;
     font-size: 24px;
     text-align: center;
+    margin: 10px auto;
 }
 .piking .forma__wrapper {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
 }
 .piking .forma__wrapper label {
     font-size: 12px;
+    font-weight: bold;
     color: #9f9e9e;
 }
 .piking .input .inner {
@@ -76,11 +79,11 @@ img {
 .piking .input input {
   width: 100%;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 15px 0;
   border: 0;
   background: none;
   font-weight: bold;
-  height: 40px;
+  height: 30px;
 }
 .piking .input input:active {
     border-color: #496c0a;
@@ -111,11 +114,11 @@ img {
     display: block;
     background-color: #496c0a;
     width: 100%;
-    height: 40px;
+    height: 30px;
     border: none;
     border-radius: 3px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     box-shadow: 0 3px 4px rgba(0,0,0,.3);
 }
@@ -125,10 +128,28 @@ img {
 
 .floor__figure {
     display: block;
-    width: 45vw;
+    width: 40vw;
     text-align: center;
-    margin: auto;
+    float: left;
+    margin: auto 40px auto 110px;;
     position: relative;
+}
+/*Описание планировки этажа*/
+.piking .discription__floor {
+    float: left;
+    padding: 100px 10px;
+    max-width: 500px;
+}
+.piking .discription__floor p {
+    font-size: 14px;
+    margin: 15px auto;
+    line-height: 25px;
+}
+.piking .discription__floor span {
+    font-size: 14px;
+    font-weight: bold;
+    color: inherit;
+    padding-left: 20px;
 }
 /*Описание микрорайона*/
 .discription__wrapper {
@@ -205,32 +226,10 @@ footer span {
 }
 
 /*подписи к домам*/
-.sign .two-two {
-    position: absolute;
-    top: 13%;
-    left: 52.7%;
-    border: 1px solid #88c369;
-    border-radius: 10px;
-    padding: 10px;
-    width: 20%;
-    font-size: 1.2vw;
-    background: #88c369;
-    color: #fff;
-    display: none;
-}
-.two-two::after, .two-two::before {
-    content: '';
-    position: absolute;
-    background: #88c369;
-    left: 20px; bottom: -11px;
-    width: 20px; height: 20px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-.sign .two-two,
-.sign .two-one,
-.sign .three-two,
-.sign .three-one {
+#wrapper__dist .sign .two-two,
+#wrapper__dist .sign .two-one,
+#wrapper__dist .sign .three-two,
+#wrapper__dist .sign .three-one {
     position: absolute;
     border: 1px solid #88c369;
     border-radius: 10px;
@@ -241,10 +240,10 @@ footer span {
     color: #fff;
     display: none;
 }
-.two-two::after, .two-two::before,
-.two-one::after, .two-one::before,
-.three-two::after, .three-two::before,
-.three-one::after, .three-one::before {
+#wrapper__dist .two-two::after, #wrapper__dist .two-two::before,
+#wrapper__dist .two-one::after, #wrapper__dist .two-one::before,
+#wrapper__dist .three-two::after, #wrapper__dist .three-two::before,
+#wrapper__dist .three-one::after, #wrapper__dist .three-one::before {
     content: '';
     position: absolute;
     background: #88c369;
@@ -253,22 +252,164 @@ footer span {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-.sign .two-two {
+#wrapper__dist .sign .two-two {
     top: 13%;
     left: 53%;
 }
-.sign .two-one {
+#wrapper__dist .sign .two-one {
     top: 5%;
     left: 41%;
 }
-.sign .three-two {
+#wrapper__dist .sign .three-two {
     top: 28%;
     left: 28%;
 }
-.sign .three-one {
+#wrapper__dist .sign .three-one {
     top: 14%;
     left: 22%;
 }
+/*Подписи к этажам*/
+#wrapper__build .sign_3e {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: bold;
+    transform: perspective(200px) rotateY(30deg);
+    display: none;
+}
+.sign35 {
+    top: 72%;
+    right: 23%;
+}
+.sign36 {
+    top: 67%;
+    right: 23%;
+}
+.sign37 {
+    top: 62%;
+    right: 23%;
+}
+.sign37 {
+    top: 62%;
+    right: 23%;
+}
+#wrapper__build .sign_2e {
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: none;
+}
+.sign29 {
+    top: 58.5%;
+    left: 51.8%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(30deg);
+}
+.sign210 {
+    top: 54.5%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(30deg);
+}
+.sign211 {
+    top: 50.5%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(3deg) rotateY(30deg);
+}
+.sign212 {
+    top: 46.3%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(4deg) rotateY(30deg);
+}
+.sign213 {
+    top: 42%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(6deg) rotateY(30deg);
+}
+.sign214 {
+    top: 37.7%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(6deg) rotateY(30deg);
+}
+.sign215 {
+    top: 33.5%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(5deg) rotateY(30deg);
+}
+#wrapper__build .sign_1e {
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: none;
+}
+.sign11 {
+    top: 91.5%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
+}
+.sign12 {
+    top: 88%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
+}
+.sign14 {
+    top: 80.8%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
+}
+.sign15 {
+    top: 77.3%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(35deg);
+}
+.sign16 {
+    top: 73.8%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(35deg);
+}
+.sign17 {
+    top: 70.3%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(35deg);
+}
+.sign18 {
+    top: 66.6%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
+}
+.sign19 {
+    top: 63%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(35deg);
+}
+.sign110 {
+    top: 59.6%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(2deg) rotateY(35deg);
+}
+.sign111 {
+    top: 56%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(3deg) rotateY(35deg);
+}
+.sign112 {
+    top: 52.3%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(3deg) rotateY(35deg);
+}
+.sign113 {
+    top: 48.7%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(4deg) rotateY(35deg);
+}
+.sign114 {
+    top: 45%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(4deg) rotateY(35deg);
+}
+.sign116 {
+    top: 38%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(5deg) rotateY(35deg);
+}
+
 
 
 @media screen and (max-width: 1000px) {
