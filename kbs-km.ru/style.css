@@ -76,6 +76,7 @@ img {
   border: 1px solid #9f9e9e;
   border-radius: 3px;
 }
+.piking .input select,
 .piking .input input {
   width: 100%;
   margin: 0;
@@ -85,9 +86,7 @@ img {
   font-weight: bold;
   height: 30px;
 }
-.piking .input input:active {
-    border-color: #496c0a;
-}
+
 .piking .forma__wrapper .house {
     max-width: 555px;
     width: 555px;
