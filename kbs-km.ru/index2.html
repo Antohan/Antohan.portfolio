@@ -198,32 +198,32 @@
             </div>
         </div>
         <div class="btn__wrapper">
-            <button>ПОДОБРАТЬ</button>
+            <button class="toSelect">ПОДОБРАТЬ</button>
         </div>
         <figure class="floor__figure">
             <svg class="select__apartament" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid meet">
                 <!--Двушка верхний левый край-->
-                <a href="#">
+                <a class="select__apatr" kv="k610" href=".apartament">
                     <path d="M123,14 L 160,14 L 160,3 L 600,3 L 600,16 L 653,16 L 653,125 L 424,125 L 424,236 L 337,236 L 337,292 L 113,292 L 113,175 L 123,175 L 123,14"></path>
                 </a>
                 <!--Однушка снизу слева-->
-                <a href="#">
+                <a class="select__apatr" kv="k538" href=".apartament">
                     <path d="M113,488 L 225,488 L 225,570 L 259,570 L 259,640 L 338,640 L 338,962 L 122,962 L 122,798 L 113,798 L 113,488"></path>
                 </a>
                 <!--Однушка справа верхняя-->
-                <a href="#">
+                <a class="select__apatr" kv="k429" href=".apartament">
                     <path d="M424,125 L 653,125 L 653,235 L 707,235 L 707,403 L 424,403 L 424,125"></path>
                 </a>
                 <!--Однушка справа по центру-->
-                <a href="#">
+                <a class="select__apatr" kv="k264" href=".apartament">
                     <path d="M424,403 L 707,403 L 707,570 L 424,570 L 424,403"></path>
                 </a>
                 <!--Однушка справа снизу-->
-                <a href="#">
+                <a class="select__apatr" kv="k262" href=".apartament">
                     <path d="M424,570 L 707,570 L 707,736 L 424,736 L 424,570"></path>
                 </a>
                 <!--Однушка левый нижни угол-->
-                <a href="#">
+                <a class="select__apatr" kv="k401" href=".apartament">
                     <path d="M424,736 L 653,736 L 653,957 L 594,957 L 594,962 L 338,962 L 338,759 L 424,759 L 424,736"></path>
                 </a>
             </svg>
@@ -242,24 +242,45 @@
             <p>Ознакомиться с планировкой каждой из них Вы можете, нажав на планировку конкретной квартиры.</p>
         </aside>
     </div>
-    
+    <hr style="clear:both; margin: 50px 20px;">
+    <!--Планировка квартиры + описание квартиры-->
+    <div class="toggle_wrap">
+        <div class="btn__wrapper">
+                    <button href=".piking">ВЕРНУТЬСЯ К ВЫБОРУ КВАРТИРЫ</button>
+        </div>
+        <div class="apart__wrapper"> 
+            <div class="apartament">
+                <div class="k262 apart"><img src="img/1k26.2m.png" alt="1 комнатная 26.2"></div>
+                <div class="k264 apart"><img src="img/1k26.4m.png" alt="1 комнатная 26.4"></div>
+                <div class="k401 apart"><img src="img/1k40.1m.png" alt="1 комнатная 40.1"></div>
+                <div class="k429 apart"><img src="img/1k42.9m.png" alt="1 комнатная 42.9"></div>
+                <div class="k538 apart"><img src="img/1k53.8m.png" alt="1 комнатная 53.8"></div>
+                <div class="k610 apart"><img src="img/2k61m.png" alt="2 комнатная 61"></div>
+                <!--Описание квартиры-->
+                <aside class="description__apart">
+                    <span>Общая площадь:</span>
+                    <p>1</p>
+                    <span>Количество комнат:</span>
+                    <p>1</p>
+                    <span>Санузел:</span>
+                    <p>1</p>
+                    <span>Отделка:</span>
+                    <p>1</p>
+                    <span>Этаж:</span>
+                    <p>1</p>
+                    <span>Стоимость:</span>
+                    <p>1</p>
+                </aside>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js"
   			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   			crossorigin="anonymous">
   	</script>
+    <script src="js-sign.js"></script>
+    <script src="js-scroll.js"></script>
     <script>
-        /*Плавный скролл страницы*/
-        $(".select__floor").on("click","a", function (event) {
-        	//отменяем стандартную обработку нажатия по ссылке
-        	event.preventDefault();
-        	//забираем идентификатор бока с атрибута href
-        	var id  = $(this).attr('href'),
-        	//узнаем высоту от начала страницы до блока на который ссылается якорь
-            top = $(id).offset().top;
-        	//анимируем переход на расстояние - top за 1000 мс
-        	$('body,html').animate({scrollTop: top}, 1000);
-		});
-
         /*Изменение значений в селектах*/
         function main_change(item) {
             var val = $('#entrance option:selected').val(),
@@ -284,199 +305,11 @@
             main_change(getItem);
         });
 
-        /*подсказка - номер этажа*/
-        $('.e3f5').hover(
-            function(){
-                $('.sign35').css('display','block');
-            },
-            function(){
-                $('.sign35').css('display','none');
-            }
-        );
-        $('.e3f6').hover(
-            function(){
-                $('.sign36').css('display','block');
-            },
-            function(){
-                $('.sign36').css('display','none');
-            }
-        );
-        $('.e3f7').hover(
-            function(){
-                $('.sign37').css('display','block');
-            },
-            function(){
-                $('.sign37').css('display','none');
-            }
-        );
-        $('.e2f9').hover(
-            function(){
-                $('.sign29').css('display','block');
-            },
-            function(){
-                $('.sign29').css('display','none');
-            }
-        );
-        $('.e2f10').hover(
-            function(){
-                $('.sign210').css('display','block');
-            },
-            function(){
-                $('.sign210').css('display','none');
-            }
-        );
-        $('.e2f11').hover(
-            function(){
-                $('.sign211').css('display','block');
-            },
-            function(){
-                $('.sign211').css('display','none');
-            }
-        );
-        $('.e2f12').hover(
-            function(){
-                $('.sign212').css('display','block');
-            },
-            function(){
-                $('.sign212').css('display','none');
-            }
-        );
-        $('.e2f13').hover(
-            function(){
-                $('.sign213').css('display','block');
-            },
-            function(){
-                $('.sign213').css('display','none');
-            }
-        );
-        $('.e2f14').hover(
-            function(){
-                $('.sign214').css('display','block');
-            },
-            function(){
-                $('.sign214').css('display','none');
-            }
-        );
-        $('.e2f15').hover(
-            function(){
-                $('.sign215').css('display','block');
-            },
-            function(){
-                $('.sign215').css('display','none');
-            }
-        );
-        $('.e1f1').hover(
-            function(){
-                $('.sign11').css('display','block');
-            },
-            function(){
-                $('.sign11').css('display','none');
-            }
-        );
-        $('.e1f2').hover(
-            function(){
-                $('.sign12').css('display','block');
-            },
-            function(){
-                $('.sign12').css('display','none');
-            }
-        );
-        $('.e1f4').hover(
-            function(){
-                $('.sign14').css('display','block');
-            },
-            function(){
-                $('.sign14').css('display','none');
-            }
-        );
-        $('.e1f5').hover(
-            function(){
-                $('.sign15').css('display','block');
-            },
-            function(){
-                $('.sign15').css('display','none');
-            }
-        );
-        $('.e1f6').hover(
-            function(){
-                $('.sign16').css('display','block');
-            },
-            function(){
-                $('.sign16').css('display','none');
-            }
-        );
-        $('.e1f7').hover(
-            function(){
-                $('.sign17').css('display','block');
-            },
-            function(){
-                $('.sign17').css('display','none');
-            }
-        );
-        $('.e1f8').hover(
-            function(){
-                $('.sign18').css('display','block');
-            },
-            function(){
-                $('.sign18').css('display','none');
-            }
-        );
-        $('.e1f9').hover(
-            function(){
-                $('.sign19').css('display','block');
-            },
-            function(){
-                $('.sign19').css('display','none');
-            }
-        );
-        $('.e1f10').hover(
-            function(){
-                $('.sign110').css('display','block');
-            },
-            function(){
-                $('.sign110').css('display','none');
-            }
-        );
-        $('.e1f11').hover(
-            function(){
-                $('.sign111').css('display','block');
-            },
-            function(){
-                $('.sign111').css('display','none');
-            }
-        );
-        $('.e1f12').hover(
-            function(){
-                $('.sign112').css('display','block');
-            },
-            function(){
-                $('.sign112').css('display','none');
-            }
-        );
-        $('.e1f13').hover(
-            function(){
-                $('.sign113').css('display','block');
-            },
-            function(){
-                $('.sign113').css('display','none');
-            }
-        );
-        $('.e1f14').hover(
-            function(){
-                $('.sign114').css('display','block');
-            },
-            function(){
-                $('.sign114').css('display','none');
-            }
-        );
-        $('.e1f16').hover(
-            function(){
-                $('.sign116').css('display','block');
-            },
-            function(){
-                $('.sign116').css('display','none');
-            }
-        );
+        /*Выбор квартиры*/
+        $('.select__apartament').on('click', 'a', function() {
+            var clas = $(this).attr('kv');
+            $('.' + clas).addClass('vision').siblings().removeClass('vision');
+        });
     </script>
 </body>
 </html>
