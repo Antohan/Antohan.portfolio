@@ -125,7 +125,9 @@ button {
 button:hover {
     box-shadow: 0 3px 4px rgba(0,0,0,.3) inset;
 }
-
+.select__apart {
+    display: none;
+}
 .floor__figure {
     display: block;
     width: 40vw;
@@ -333,6 +335,11 @@ footer span {
     left: 51%;
     transform: perspective(200px) rotateZ(5deg) rotateY(30deg);
 }
+.sign216 {
+    top: 29.5%;
+    left: 51%;
+    transform: perspective(200px) rotateZ(5deg) rotateY(30deg);
+}
 #wrapper__build .sign_1e {
     position: absolute;
     font-size: 1.5vw;
@@ -346,6 +353,11 @@ footer span {
 }
 .sign12 {
     top: 88%;
+    left: 38.7%;
+    transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
+}
+.sign13 {
+    top: 84.3%;
     left: 38.7%;
     transform: perspective(200px) rotateZ(1deg) rotateY(35deg);
 }
@@ -404,6 +416,11 @@ footer span {
     left: 38%;
     transform: perspective(200px) rotateZ(4deg) rotateY(35deg);
 }
+.sign115 {
+    top: 41.5%;
+    left: 38%;
+    transform: perspective(200px) rotateZ(4deg) rotateY(35deg);
+}
 .sign116 {
     top: 38%;
     left: 38%;
@@ -416,6 +433,7 @@ footer span {
     max-width: 1000px;
     height: 550px;
     margin: 0 auto;
+    color: #41443b;
 }
 .apartament {
     clear: both;
@@ -431,14 +449,21 @@ footer span {
     width: 500px;
 }
 .vision {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
 }
-aside .description__apart span {
+.apart__wrapper aside {
+    text-align: center;
+    line-height: 10px;
+    width: 300px;
+    float: left;
+    margin: 0 auto;
+}
+.apart__wrapper aside span {
     text-decoration: underline;
     font-weight: bold;
+    
 }
-aside .description__apart p {
+.apart__wrapper aside p {
     display: block;
     
 }

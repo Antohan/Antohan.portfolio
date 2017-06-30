@@ -79,6 +79,14 @@
                 $('.sign215').css('display','none');
             }
         );
+        $('.e2f16').hover(
+            function(){
+                $('.sign216').css('display','block');
+            },
+            function(){
+                $('.sign216').css('display','none');
+            }
+        );
         $('.e1f1').hover(
             function(){
                 $('.sign11').css('display','block');
@@ -93,6 +101,14 @@
             },
             function(){
                 $('.sign12').css('display','none');
+            }
+        );
+        $('.e1f3').hover(
+            function(){
+                $('.sign13').css('display','block');
+            },
+            function(){
+                $('.sign13').css('display','none');
             }
         );
         $('.e1f4').hover(
@@ -181,6 +197,14 @@
             },
             function(){
                 $('.sign114').css('display','none');
+            }
+        );
+        $('.e1f15').hover(
+            function(){
+                $('.sign115').css('display','block');
+            },
+            function(){
+                $('.sign115').css('display','none');
             }
         );
         $('.e1f16').hover(
