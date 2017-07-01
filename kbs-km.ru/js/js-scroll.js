@@ -1,31 +1,34 @@
 /*Плавный скролл страницы*/
+	/*От этажа к планировке*/
         $(".select__floor").on("click","a", function (event) {
         	//отменяем стандартную обработку нажатия по ссылке
         	event.preventDefault();
         	//забираем идентификатор бока с атрибута href
         	var id  = $(this).attr('href'),
         	//узнаем высоту от начала страницы до блока на который ссылается якорь
-            top = $(id).offset().top;
+            top = $(id).offset().top - 100 +'px';
         	//анимируем переход на расстояние - top за 1000 мс
         	$('body,html').animate({scrollTop: top}, 1000);
 		});
+	/*От планировки этажа к планировке квартиры*/	
         $(".select__apartament").on("click","a", function (event) {
         	//отменяем стандартную обработку нажатия по ссылке
         	event.preventDefault();
         	//забираем идентификатор бока с атрибута href
         	var id  = $(this).attr('href'),
         	//узнаем высоту от начала страницы до блока на который ссылается якорь
-            top = $(id).offset().top;
+            top = $(id).offset().top - 200 + 'px';
         	//анимируем переход на расстояние - top за 1000 мс
         	$('body,html').animate({scrollTop: top}, 1000);
 		});
-        $(".btn__wrapper").on("click","button", function (event) {
+	/*От планировки квартиры к планировке этажа*/
+        $(".goTop").on("click","button", function (event) {
         	//отменяем стандартную обработку нажатия по ссылке
         	event.preventDefault();
         	//забираем идентификатор бока с атрибута href
         	var id  = $(this).attr('href'),
         	//узнаем высоту от начала страницы до блока на который ссылается якорь
-            top = $(id).offset().top;
+            top = $(id).offset().top - 100 + 'px';
         	//анимируем переход на расстояние - top за 1000 мс
         	$('body,html').animate({scrollTop: top}, 1000);
 		});

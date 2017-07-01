@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>Дом №1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="height:100px;">Шапка</header>
+    <header></header>
     <div id="wrapper__build">
         <span class="hint">ВЫБЕРИТЕ ЭТАЖ:</span>
-        <svg class="select__floor" viewBox="0 0 1000 540" preserveAspectRatio="xMidYMid meet">
+        <svg class="select__floor" viewBox="0 0 1000 560" preserveAspectRatio="xMidYMid meet">
         <!--Подъезд №1-->
             <!--Эт.1-->
             <a class="e1f1" href=".piking"  get-entrance="first" get-floor="1">
@@ -215,9 +216,9 @@
                 </div>
             </div>
         </div>
-        <!--<div class="btn__wrapper">-->
+        <div class="btn__wrapper">
             <button class="toSelect">ПОДОБРАТЬ</button>
-        <!--</div>-->
+        </div>
         <figure class="floor__figure">
             <svg class="select__apartament" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid meet">
                 <!--Двушка верхний левый край-->
@@ -248,7 +249,7 @@
             <img src="img/floor.jpg" alt="Этаж">
         </figure>
     <!--Описание планировки этажа-->
-        <aside class="discription__floor">
+        <aside class="description__floor">
             <p>На каждом этаже расположено по 6 уютных и комфортных для проживания квартир:</p>
             <p>- 5 однокомнатных квартир:</p>
             <span>42,9 м<sup>2</sup></span><br>
@@ -256,15 +257,15 @@
             <span>26,2 м<sup>2</sup></span><br>
             <span>40,1 м<sup>2</sup></span><br>
             <span>53,8 м<sup>2</sup></span><br>
-            <p>- 1 двухкомнатная квартира общей площадью 61 м <sup>2</sup></p>
+            <p>- 1 двухкомнатная квартира общей площадью <strong>61 м<sup>2</sup></strong></p>
             <p>Ознакомиться с планировкой каждой из них Вы можете, нажав на планировку конкретной квартиры.</p>
         </aside>
     </div>
     <hr style="clear:both; margin: 50px 20px;">
     <!--Планировка квартиры + описание квартиры-->
     <div class="toggle_wrap">
-        <div class="btn__wrapper">
-                    <button href=".piking">ВЕРНУТЬСЯ К ВЫБОРУ КВАРТИРЫ</button>
+        <div class="btn__wrapper goTop">
+            <button href=".piking">ВЕРНУТЬСЯ К ВЫБОРУ КВАРТИРЫ</button>
         </div>
         <div class="apart__wrapper"> 
             <div class="apartament">
@@ -293,11 +294,16 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="js-sign.js"></script>
-    <script src="js-scroll.js"></script>
-    <script src="js-dropdown.js"></script>
-    <script src="js-arrapart.js"></script>
-    <script src="js-selectapart.js"></script>
-    <script src="js-viewapart.js"></script>
+    <script src="js/js-sign.js"></script>
+    <script src="js/js-scroll.js"></script>
+    <script src="js/js-dropdown.js"></script>
+    <script src="js/js-arrapart.js"></script>
+    <script src="js/js-selectapart.js"></script>
+    <script src="js/js-viewapart.js"></script>
+    <script>
+        $(".select__apart").click(function () {
+    		$(".apart__wrapper").show();
+        });
+    </script>
 </body>
 </html>
