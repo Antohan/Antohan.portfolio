@@ -79,14 +79,6 @@
                 $('.sign215').css('display','none');
             }
         );
-        $('.e2f16').hover(
-            function(){
-                $('.sign216').css('display','block');
-            },
-            function(){
-                $('.sign216').css('display','none');
-            }
-        );
         $('.e1f1').hover(
             function(){
                 $('.sign11').css('display','block');

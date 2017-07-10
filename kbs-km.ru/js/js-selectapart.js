@@ -16,7 +16,7 @@
                 $('.kv429').addClass('vision').attr('key', '7');
                 $('.kv264').removeClass('vision');
                 $('.kv262').removeClass('vision');
-                $('.kv401').addClass('vision').attr('key', '10');
+                $('.kv401').removeClass('vision');
             }
             if ((ent == 'first') && (flo == '3')){
                 $('.kv610').removeClass('vision');
@@ -79,7 +79,7 @@
                 $('.kv538').removeClass('vision');
                 $('.kv429').addClass('vision').attr('key', '55');
                 $('.kv264').addClass('vision').attr('key', '56');
-                $('.kv262').addClass('vision').attr('key', '57');
+                $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '58');
             }
             if ((ent == 'first') && (flo == '11')){
@@ -87,7 +87,7 @@
                 $('.kv538').removeClass('vision');
                 $('.kv429').addClass('vision').attr('key', '61');
                 $('.kv264').addClass('vision').attr('key', '62');
-                $('.kv262').addClass('vision').attr('key', '63');
+                $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '64');
             }
             if ((ent == 'first') && (flo == '12')){
@@ -95,13 +95,13 @@
                 $('.kv538').removeClass('vision');
                 $('.kv429').addClass('vision').attr('key', '67');
                 $('.kv264').addClass('vision').attr('key', '68');
-                $('.kv262').addClass('vision').attr('key', '69');
+                $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '70');
             }
             if ((ent == 'first') && (flo == '13')){
                 $('.kv610').removeClass('vision');
                 $('.kv538').removeClass('vision');
-                $('.kv429').addClass('vision').attr('key', '73');
+                $('.kv429').removeClass('vision');
                 $('.kv264').addClass('vision').attr('key', '74');
                 $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '76');
@@ -127,7 +127,7 @@
                 $('.kv538').removeClass('vision');
                 $('.kv429').removeClass('vision');
                 $('.kv264').removeClass('vision');
-                $('.kv262').addClass('vision').attr('key', '93');
+                $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '94');
             }
             if ((ent == 'second') && (flo == '9')){
@@ -173,7 +173,7 @@
             if ((ent == 'second') && (flo == '14')){
                 $('.kv610').removeClass('vision');
                 $('.kv538').removeClass('vision');
-                $('.kv429').addClass('vision').attr('key', '173');
+                $('.kv429').removeClass('vision');
                 $('.kv264').removeClass('vision');
                 $('.kv262').removeClass('vision');
                 $('.kv401').addClass('vision').attr('key', '176');
@@ -182,14 +182,6 @@
                 $('.kv610').removeClass('vision');
                 $('.kv538').removeClass('vision');
                 $('.kv429').addClass('vision').attr('key', '179');
-                $('.kv264').removeClass('vision');
-                $('.kv262').removeClass('vision');
-                $('.kv401').removeClass('vision');
-            }
-            if ((ent == 'second') && (flo == '16')){
-                $('.kv610').removeClass('vision');
-                $('.kv538').addClass('vision').attr('key', '186');
-                $('.kv429').removeClass('vision');
                 $('.kv264').removeClass('vision');
                 $('.kv262').removeClass('vision');
                 $('.kv401').removeClass('vision');
