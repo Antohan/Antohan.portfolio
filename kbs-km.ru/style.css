@@ -6,6 +6,9 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+u {
+    text-decoration: none;
+}
 #wrapper__dist,
 #wrapper__build {
     position: relative;

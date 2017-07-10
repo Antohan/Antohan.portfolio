@@ -16,6 +16,8 @@ function getValue(array,keyText) {
             $('#bathroom').text(array[i].bathroom);
             $('#decor').text(array[i].decor);
             $('#floornum').text(array[i].floor);
+            $('#min-price').text(array[i].min_price);
+            $('#max-price').text(array[i].max_price);
             $('#price').text(array[i].price);
         }
     }

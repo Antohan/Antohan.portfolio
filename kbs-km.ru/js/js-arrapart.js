@@ -8,6 +8,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 842 000,00',
+                max_price: '1 842 000,00',
                 price: '1 842 000,00'
             },
             {
@@ -18,6 +20,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 251 000,00',
+                max_price: '1 345 000,00',
                 price: '1 251 000,00'
             },
             {
@@ -28,17 +32,9 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '1 983 000,00'
-            },
-            {
-                number: 10,
-                entrance: 1,
-                floor: 2,
-                area: 40.1,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '1 853 000,00'
             },
             {
                 number: 13,
@@ -48,6 +44,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 005 000,00'
             },
             {
@@ -58,6 +56,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '2 404 000,00',
+                max_price: '2 432 000,00',
                 price: '2 404 000,00'
             },
             {
@@ -68,6 +68,8 @@
                 rooms: 2,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '2 632 000,00',
+                max_price: '2 664 000,00',
                 price: '2 632 000,00'
             },
             {
@@ -78,6 +80,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 026 000,00'
             },
             {
@@ -88,6 +92,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 894 000,00'
             },
             {
@@ -98,6 +104,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '2 404 000,00',
+                max_price: '2 432 000,00',
                 price: '2 432 000,00'
             },
             {
@@ -108,6 +116,8 @@
                 rooms: 2,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '2 632 000,00',
+                max_price: '2 664 000,00',
                 price: '2 664 000,00'
             },
             {
@@ -118,6 +128,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 048 000,00'
             },
             {
@@ -128,6 +140,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 915 000,00'
             },
             {
@@ -138,6 +152,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 070 000,00'
             },
             {
@@ -148,6 +164,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 328 000,00'
             },
             {
@@ -158,6 +176,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 251 000,00',
+                max_price: '1 345 000,00',
                 price: '1 318 000,00'
             },
             {
@@ -168,6 +188,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 935 000,00'
             },
             {
@@ -178,6 +200,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 092 000,00'
             },
             {
@@ -188,6 +212,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 342 000,00'
             },
             {
@@ -198,6 +224,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 251 000,00',
+                max_price: '1 345 000,00',
                 price: '1 331 000,00'
             },
             {
@@ -208,6 +236,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 956 000,00'
             },
             {
@@ -218,7 +248,9 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
-                price: '2 414 000,00'
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
+                price: '2 114 000,00'
             },
             {
                 number: 44,
@@ -228,6 +260,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 355 000,00'
             },
             {
@@ -238,6 +272,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 251 000,00',
+                max_price: '1 345 000,00',
                 price: '1 345 000,00'
             },
             {
@@ -248,6 +284,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 976 000,00'
             },
             {
@@ -258,6 +296,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 114 000,00'
             },
             {
@@ -268,6 +308,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 355 000,00'
             },
             {
@@ -278,6 +320,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 251 000,00',
+                max_price: '1 345 000,00',
                 price: '1 345 000,00'
             },
             {
@@ -288,6 +332,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 976 000,00'
             },
             {
@@ -298,6 +344,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 114 000,00'
             },
             {
@@ -308,17 +356,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 342 000,00'
-            },
-            {
-                number: 57,
-                entrance: 1,
-                floor: 10,
-                area: 26.2,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '1 331 000,00'
             },
             {
                 number: 58,
@@ -328,6 +368,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 956 000,00'
             },
             {
@@ -338,6 +380,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 070 000,00'
             },
             {
@@ -348,17 +392,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 328 000,00'
-            },
-            {
-                number: 63,
-                entrance: 1,
-                floor: 11,
-                area: 26.2,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '1 318 000,00'
             },
             {
                 number: 64,
@@ -368,6 +404,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 935 000,00'
             },
             {
@@ -378,6 +416,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 048 000,00'
             },
             {
@@ -388,17 +428,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 315 000,00'
-            },
-            {
-                number: 69,
-                entrance: 1,
-                floor: 12,
-                area: 26.2,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '1 358 000,00'
             },
             {
                 number: 70,
@@ -408,17 +440,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 915 000,00'
-            },
-            {
-                number: 73,
-                entrance: 1,
-                floor: 13,
-                area: 42.9,
-                rooms: 1,
-                bathroom: 'Раздельный',
-                decor: 'Чистовая',
-                price: '2 026 000,00'
             },
             {
                 number: 74,
@@ -428,6 +452,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 301 000,00'
             },
             {
@@ -438,6 +464,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 894 000,00'
             },
             {
@@ -448,6 +476,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 060 000,00'
             },
             {
@@ -458,6 +488,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 265 000,00',
+                max_price: '1 355 000,00',
                 price: '1 265 000,00'
             },
             {
@@ -468,6 +500,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 874 000,00'
             },
             {
@@ -478,6 +512,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 114 000,00',
                 price: '2 060 000,00'
             },
             {
@@ -488,17 +524,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 924 000,00'
-            },
-            {
-                number: 93,
-                entrance: 1,
-                floor: 16,
-                area: 26.2,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '1 307 000,00'
             },
             {
                 number: 94,
@@ -508,6 +536,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 833 000,00',
+                max_price: '1 976 000,00',
                 price: '1 833 000,00'
             },
             {
@@ -518,6 +548,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 355 000,00',
                 price: '1 355 000,00'
             },
             {
@@ -528,6 +560,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 345 000,00',
+                max_price: '1 345 000,00',
                 price: '1 345 000,00'
             },
             {
@@ -538,6 +572,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 976 000,00'
             },
             {
@@ -548,6 +584,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 355 000,00',
                 price: '1 342 000,00'
             },
             {
@@ -558,6 +596,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 956 000,00'
             },
             {
@@ -568,6 +608,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 355 000,00',
                 price: '1 328 000,00'
             },
             {
@@ -578,6 +620,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 935 000,00'
             },
             {
@@ -588,6 +632,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 355 000,00',
                 price: '1 315 000,00'
             },
             {
@@ -598,6 +644,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 915 000,00'
             },
             {
@@ -608,6 +656,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 026 000,00',
                 price: '2 026 000,00'
             },
             {
@@ -618,17 +668,9 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 894 000,00'
-            },
-            {
-                number: 173,
-                entrance: 2,
-                floor: 14,
-                area: 42.9,
-                rooms: 1,
-                bathroom: 'Раздельный',
-                decor: 'Чистовая',
-                price: '2 005 000,00'
             },
             {
                 number: 176,
@@ -638,6 +680,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 874 000,00',
+                max_price: '1 976 000,00',
                 price: '1 874 000,00'
             },
             {
@@ -648,17 +692,9 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '1 983 000,00',
+                max_price: '2 026 000,00',
                 price: '1 983 000,00'
-            },
-            {
-                number: 186,
-                entrance: 2,
-                floor: 16,
-                area: 53.8,
-                rooms: 1,
-                bathroom: 'Совмещенный',
-                decor: 'Чистовая',
-                price: '2 684 620,00'
             },
             {
                 number: 214,
@@ -668,6 +704,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '2 048 000,00',
+                max_price: '2 070 000,00',
                 price: '2 048 000,00'
             },
             {
@@ -678,6 +716,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 342 000,00',
                 price: '1 315 000,00'
             },
             {
@@ -688,6 +728,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 915 000,00',
+                max_price: '1 956 000,00',
                 price: '1 915 000,00'
             },
             {
@@ -698,6 +740,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '2 459 000,00',
+                max_price: '2 459 000,00',
                 price: '2 459 000,00'
             },
             {
@@ -708,6 +752,8 @@
                 rooms: 1,
                 bathroom: 'Раздельный',
                 decor: 'Чистовая',
+                min_price: '2 048 000,00',
+                max_price: '2 070 000,00',
                 price: '2 070 000,00'
             },
             {
@@ -718,6 +764,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 342 000,00',
                 price: '1 328 000,00'
             },
             {
@@ -728,6 +776,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 318 000,00',
+                max_price: '1 331 000,00',
                 price: '1 318 000,00'
             },
             {
@@ -738,6 +788,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 915 000,00',
+                max_price: '1 956 000,00',
                 price: '1 935 000,00'
             },
             {
@@ -748,6 +800,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 315 000,00',
+                max_price: '1 342 000,00',
                 price: '1 342 000,00'
             },
             {
@@ -758,6 +812,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 318 000,00',
+                max_price: '1 331 000,00',
                 price: '1 331 000,00'
             },
             {
@@ -768,6 +824,8 @@
                 rooms: 1,
                 bathroom: 'Совмещенный',
                 decor: 'Чистовая',
+                min_price: '1 915 000,00',
+                max_price: '1 956 000,00',
                 price: '1 956 000,00'
             },
         ];
